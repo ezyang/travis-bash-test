@@ -1,0 +1,8 @@
+language: generic
+sudo: false
+
+before_install: true
+install: true
+before_script: true
+script:
+ - ./run.sh
